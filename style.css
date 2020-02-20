@@ -1,0 +1,127 @@
+/***** BASE STYLES *****/
+
+html {
+
+background-color: #e0e0d1;;
+font-family: 'Source Sans Pro', sans-serif;
+color: #2b2b2b;
+}
+/***** GRID *****/
+.full-width{
+  width: 1200px;
+}
+
+.half-width{
+  width: 600px;
+  }
+
+.third-width{
+  width: 400px;
+}
+.sixth-width{
+  width: 200px;
+}
+
+/***** HEADER *****/
+
+header {
+  height: 250px;
+  background: #cccccc;
+  margin-top: -2px;
+}
+
+h1 {
+  text-align: center;
+  color: grey;
+  padding: 65px;
+  margin-top: 20px;
+  font-size: 40px;
+  border-style: solid;
+  border-color: #3d3d29;
+  border-width: 5px;
+  }
+
+nav {
+    height: 32px;
+    background-color: #bfbfbf;
+    float: both;
+
+        }
+
+nav ul li{
+    display: inline-block;
+}
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 25px;
+    color: #828282;
+    padding: 80px 80px 80px 120px;
+}
+
+/***** MAIN *****/
+
+ article.top{
+  height: 250px;
+  border-style: solid;
+  border-width: 2px;
+  padding: 5px;
+  margin: 30px 5px 20px 5px;
+  float: left;
+}
+article {
+  height: 250px;
+  border-style: solid;
+  border-width: 2px;
+  padding: 5px;
+  margin: 10px 5px 20px 5px;
+  float: left;
+}
+
+.side-bar{
+  font-size: 25px;
+  border-style: solid;
+  border-width: 2px;
+  padding: 5px;
+  margin: 30px 5px 20px 5px;
+  float: left;
+}
+
+#first-cat{
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTOL89VuVZnZROtlF7f2N3ZoXteA9VW7m-M_H91eJZZx--41xhy");
+  background-size: cover;
+}
+#second-cat {
+  background-image: url("https://c1.staticflickr.com/6/5608/15761451576_f04c926fe3_b.jpg");
+  background-size: cover;
+}
+#third-cat {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTbiSYmr_XyYuK6pjQho8SINU0nsS_SyPg-iWCs35N8gfdDqOHm");
+  background-size: cover;
+}
+
+img{
+  padding-top: 30px;
+  padding-left: 80px;
+  height: 200px;
+  width: 200px;
+}
+
+    /***** FOOTER *****/
+
+footer  {
+  width: 100%;
+  font-size: 25px;
+  text-align: center;
+  background-color: #b8b894;
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  float: left;
+
+}
+
+footer span{
+  padding: 50px;
+  margin: 30px;
+}
