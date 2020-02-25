@@ -1,127 +1,170 @@
-/***** BASE STYLES *****/
+/***** HEADER***/
 
-html {
+ header {
+   height: 500px;
+  background-image: url("img/header.png");
+   background-size: cover;
+   width: 100vw;
+ }
 
-background-color: #e0e0d1;;
-font-family: 'Source Sans Pro', sans-serif;
-color: #2b2b2b;
-}
-/***** GRID *****/
-.full-width{
-  width: 1200px;
-}
-
-.half-width{
-  width: 600px;
-  }
-
-.third-width{
-  width: 400px;
-}
-.sixth-width{
-  width: 200px;
+.top-ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 10px;
 }
 
-/***** HEADER *****/
-
-header {
-  height: 250px;
-  background: #cccccc;
-  margin-top: -2px;
+.top-index {
+  padding: 30px;
 }
 
-h1 {
-  text-align: center;
-  color: grey;
-  padding: 65px;
-  margin-top: 20px;
-  font-size: 40px;
-  border-style: solid;
-  border-color: #3d3d29;
-  border-width: 5px;
-  }
-
-nav {
-    height: 32px;
-    background-color: #bfbfbf;
-    float: both;
-
-        }
-
-nav ul li{
-    display: inline-block;
+section{
+  width: 100vw;
 }
-nav ul li a {
-    text-transform: uppercase;
-    text-decoration: none;
-    font-size: 25px;
-    color: #828282;
-    padding: 80px 80px 80px 120px;
-}
+/**** FIRST DIV****/
 
-/***** MAIN *****/
-
- article.top{
-  height: 250px;
-  border-style: solid;
-  border-width: 2px;
-  padding: 5px;
-  margin: 30px 5px 20px 5px;
-  float: left;
-}
-article {
-  height: 250px;
-  border-style: solid;
-  border-width: 2px;
-  padding: 5px;
-  margin: 10px 5px 20px 5px;
-  float: left;
-}
-
-.side-bar{
-  font-size: 25px;
-  border-style: solid;
-  border-width: 2px;
-  padding: 5px;
-  margin: 30px 5px 20px 5px;
-  float: left;
-}
-
-#first-cat{
-  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTOL89VuVZnZROtlF7f2N3ZoXteA9VW7m-M_H91eJZZx--41xhy");
-  background-size: cover;
-}
-#second-cat {
-  background-image: url("https://c1.staticflickr.com/6/5608/15761451576_f04c926fe3_b.jpg");
-  background-size: cover;
-}
-#third-cat {
-  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTbiSYmr_XyYuK6pjQho8SINU0nsS_SyPg-iWCs35N8gfdDqOHm");
-  background-size: cover;
-}
-
-img{
-  padding-top: 30px;
-  padding-left: 80px;
+.first-div {
+  background-color: lightgrey;
   height: 200px;
-  width: 200px;
+  width: 100vw;
+}
+.first-div img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
 }
 
-    /***** FOOTER *****/
+/**** SECOND DIV****/
 
-footer  {
-  width: 100%;
-  font-size: 25px;
+.second-div{
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+
+}
+  .second-left {
+    width: 60vw;
+    flex-grow: 1;
+    background-image: url("img/div2-background.png");
+      }
+
+  .second-left img{
+    display: block;
+    margin: auto;
+    margin-top: 80px;
+  }
+
+  .second-right {
+    width: 40vw;
+    background-color: azure;
+    flex-grow: 1;
+    text-align: center;
+  }
+
+#icon1 {
+  display: block;
+  margin: auto;
+  padding-top: 20px;
+}
+#brown-saddle{
+  display: flex;
+  align-items: flex-end;
+  width: 40vw;
+}
+
+
+/**** THIRD DIV****/
+
+.third-div{
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+}
+
+.third-left {
+  background-color: azure;
+  width: 40vw;
+  flex-grow: 1;
   text-align: center;
-  background-color: #b8b894;
-  border-style: solid;
-  border-width: 2px;
-  border-color: black;
-  float: left;
-
 }
 
-footer span{
-  padding: 50px;
-  margin: 30px;
+.third-left img {
+  display: block;
+  margin: auto;
+  padding-top: 10px;
+  }
+
+.third-right {
+  background-image: url("img/div3-background.png");
+  width: 60vw;
+  flex-grow: 1;
+}
+
+.third-right img {
+  display: block;
+  margin: auto;
+  padding-top: 150px;
+}
+
+/**** FOURTH DIV****/
+
+.fourth-div{
+  display: flex;
+  flex-direction: row;
+  height: 500px;
+  width: 100vw;
+}
+.fourth-left {
+  background-color: green;
+  width: 33vw;
+}
+
+.fourth-middle {
+  background-color: blue;
+  width: 34vw;
+}
+
+.fourth-right {
+  background-color: green;
+  width: 33vw;
+}
+
+/**** fifth DIV****/
+
+.fifth-div{
+  display: flex;
+  flex-direction: row;
+  height: 300px;
+  width: 100vw;
+  background-color: azure;
+  text-align: center;
+}
+
+/**** sixth DIV****/
+
+.sixth-div {
+  display: flex;
+  flex-direction: row;
+  height: 300px;
+  width: 100vw;
+}
+
+  .sixth-left {
+    background-color: green;
+    width: 33vw;
+  }
+
+  .sixth-middle {
+    background-color: blue;
+    width: 34vw;
+    text-align: center;
+  }
+
+  .sixth-right {
+    background-color: green;
+    width: 33vw;
 }
