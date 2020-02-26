@@ -26,6 +26,7 @@
   background-color: lightgrey;
   height: 200px;
   width: 100vw;
+  text-align: center;
 }
 .first-div img {
   display: block;
@@ -34,19 +35,24 @@
   padding-top: 20px;
 }
 
+.first-div p{
+  width: 700px;
+  padding-left: 225px;
+}
+
 /**** SECOND DIV****/
 
 .second-div{
   height: 500px;
   display: flex;
-  flex-direction: row;
   width: 100vw;
 
 }
   .second-left {
     width: 60vw;
-    flex-grow: 1;
+    flex: 1;
     background-image: url("img/div2-background.png");
+
       }
 
   .second-left img{
@@ -58,8 +64,9 @@
   .second-right {
     width: 40vw;
     background-color: azure;
-    flex-grow: 1;
     text-align: center;
+    display: flex;
+    flex-direction: column;
       }
 
 #icon1 {
@@ -79,22 +86,30 @@
 .third-div{
   height: 500px;
   display: flex;
-  flex-direction: row;
   width: 100vw;
 }
 
 .third-left {
-  background-color: azure;
   width: 40vw;
-  flex-grow: 1;
+  background-color: azure;
+  display: flex;
+  flex-direction: column;
   text-align: center;
+  align-items: center;
+
 }
 
-.third-left img {
+#target-icon {
   display: block;
   margin: auto;
   padding-top: 10px;
+
   }
+  #black-saddle {
+    align-items: flex-end;
+    width: 40vw
+  }
+
 
 .third-right {
   background-image: url("img/div3-background.png");
@@ -125,13 +140,19 @@
 .fourth-middle {
   background-color: azure;
   width: 34vw;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
 }
 
+
 #icon3 {
-  padding: 20px;
+  display: block;
+  margin: auto;
+
 }
 #div4mid{
-  padding-top: 100px;
+  align-items: flex-end;
 }
 
 .fourth-right {
@@ -151,49 +172,77 @@
   padding: 20px;
 }
 
-/**** sixth DIV****/
+/**** new sixt div ***/
 
-.sixth-div {
-  display: flex;
-  flex-direction: row;
-  height: 300px;
+.div6 {
   width: 100vw;
-
+  height: 500px;
+  display: flex;
 }
 
-  .sixth-left {
-    width: 33vw;
-    display: flex;
-    flex-direction: row;
-      }
-
-  .sixth-inner{
-    display: flex;
-    flex-direction: row;
-  }
-
-  .sixth-middle {
-    display: flex;
-    flex-direction: row;
-    flex-grow: 1;
-  }
-
-
-  .sixth-right {
-    width: 33vw;
-    display: flex;
-    flex-grow: 1;
+.div6-left{
+  flex: 1;
+  background-color: red;
+  display: flex;
+  flex-direction: column;
 }
-.sixth-bottom{
+
+.div6-left-top{
   display: flex;
   flex-direction: row;
 }
 
-.div7{
-  background-color: grey;
+
+
+.div6-left-bottom{
+  background-image: url("img/brooks2.png");
+  background-size: cover;
+  flex: 1;
 }
 
-/****FOOTER****/
-  footer{
-    background-color: grey;
-  }
+.div6-mid{
+  display: flex;
+  flex: 1;
+
+
+}
+
+.div6-mid-left{
+  background-image: url("img/middle1.png");
+  background-size: cover;
+  flex: 1;
+}
+.div6-mid-right{
+  background-image: url("img/middle2.png");
+  background-size: cover;
+  flex: 1;
+}
+.div6-right{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.div6-right-top{
+  background-image: url("img/six-top.png");
+  background-size: cover;
+  flex: 1;
+
+}
+
+.div6-right-bottom{
+  display: flex;
+}
+.div6-right-bottom1{
+  display: flex
+  background-image: url("img/saddle-front.png");
+  background-size: cover;
+  flex: 1;
+}
+.div6-right-bottom1{
+  display: flex;
+  background-image: url("img/bag.png");
+  background-size: cover;
+  flex: 1;
+}
