@@ -19,9 +19,7 @@
   padding: 30px;
 }
 
-section{
-  width: 100vw;
-}
+
 /**** FIRST DIV****/
 
 .first-div {
@@ -62,7 +60,7 @@ section{
     background-color: azure;
     flex-grow: 1;
     text-align: center;
-  }
+      }
 
 #icon1 {
   display: block;
@@ -160,30 +158,31 @@ section{
   flex-direction: row;
   height: 300px;
   width: 100vw;
+
 }
 
   .sixth-left {
-    background-color: green;
     width: 33vw;
     display: flex;
     flex-direction: row;
-  }
+      }
+
   .sixth-inner{
     display: flex;
     flex-direction: row;
   }
 
   .sixth-middle {
-    background-color: blue;
-    width: 34vw;
     display: flex;
     flex-direction: row;
-
+    flex-grow: 1;
   }
 
+
   .sixth-right {
-    background-color: green;
     width: 33vw;
+    display: flex;
+    flex-grow: 1;
 }
 .sixth-bottom{
   display: flex;
@@ -191,5 +190,10 @@ section{
 }
 
 .div7{
-  background-color: darkgrey;
+  background-color: grey;
 }
+
+/****FOOTER****/
+  footer{
+    background-color: grey;
+  }
