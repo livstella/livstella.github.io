@@ -113,35 +113,44 @@ section{
 /**** FOURTH DIV****/
 
 .fourth-div{
+  height: 500px;
   display: flex;
   flex-direction: row;
-  height: 500px;
   width: 100vw;
+  text-align: center;
 }
 .fourth-left {
-  background-color: green;
+  background-image: url("img/div4-background1.png");
   width: 33vw;
 }
 
 .fourth-middle {
-  background-color: blue;
+  background-color: azure;
   width: 34vw;
 }
 
+#icon3 {
+  padding: 20px;
+}
+#div4mid{
+  padding-top: 100px;
+}
+
 .fourth-right {
-  background-color: green;
+  background-image: url("img/div4-background.png");
   width: 33vw;
 }
 
 /**** fifth DIV****/
 
 .fifth-div{
-  display: flex;
-  flex-direction: row;
   height: 300px;
   width: 100vw;
   background-color: azure;
   text-align: center;
+}
+.fifth-div img{
+  padding: 20px;
 }
 
 /**** sixth DIV****/
@@ -156,15 +165,31 @@ section{
   .sixth-left {
     background-color: green;
     width: 33vw;
+    display: flex;
+    flex-direction: row;
+  }
+  .sixth-inner{
+    display: flex;
+    flex-direction: row;
   }
 
   .sixth-middle {
     background-color: blue;
     width: 34vw;
-    text-align: center;
+    display: flex;
+    flex-direction: row;
+
   }
 
   .sixth-right {
     background-color: green;
     width: 33vw;
+}
+.sixth-bottom{
+  display: flex;
+  flex-direction: row;
+}
+
+.div7{
+  background-color: darkgrey;
 }
