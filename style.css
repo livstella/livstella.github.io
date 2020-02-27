@@ -257,10 +257,15 @@
 }
 
 button {
-  color: darkgrey;
+  background-color: darkgrey;
   height: 50px;
   align-self: center;
   border-radius: 12px;
   padding: 10px 24px;
+  transition-duration: 0.4s;
 
+}
+
+button:hover{
+  background-color: lightgrey;
 }
