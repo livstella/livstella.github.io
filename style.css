@@ -246,3 +246,19 @@
   background-size: cover;
   flex: 1;
 }
+
+.div7{
+  background-color: black;
+  width: 100vw;
+  display: flex;
+  flex: 1;
+  height: 150px;
+  justify-content: center;
+}
+
+button {
+  color: darkgrey;
+  height: 50px;
+  align-self: center;
+
+}
