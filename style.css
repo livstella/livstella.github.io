@@ -182,7 +182,6 @@
 
 .div6-left{
   flex: 1;
-  background-color: red;
   display: flex;
   flex-direction: column;
 }
@@ -256,16 +255,47 @@
   justify-content: center;
 }
 
-button {
-  background-color: darkgrey;
+.div7 button {
+  background-color: black;
+  color: white;
   height: 50px;
   align-self: center;
   border-radius: 12px;
   padding: 10px 24px;
   transition-duration: 0.4s;
+  box-shadow: 1px 1px 10px 1px grey;
 
 }
 
 button:hover{
   background-color: lightgrey;
+}
+
+.div8{
+  background-color: azure;
+  color: grey;
+  height: 400px;
+  width: 100vw;
+  text-align: center;
+  font-size: 25px;
+  display: flex;
+  flex-direction:column;
+
+}
+
+.div8 img{
+  padding-top: 50px;
+  display: block;
+  width: 100px;
+  align-self: center;
+}
+
+.div8 button{
+  background-color: rgba(9, 179, 131, 0.40);
+  height: 60px;
+  width: 90px;
+}
+
+#email {
+  height: 50px;
 }
