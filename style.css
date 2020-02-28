@@ -27,17 +27,20 @@
   height: 200px;
   width: 100vw;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
 }
 .first-div img {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
   padding-top: 20px;
 }
 
 .first-div p{
+  margin-top: -17px;
   width: 700px;
-  padding-left: 225px;
 }
 
 /**** SECOND DIV****/
@@ -268,7 +271,7 @@
 }
 
 button:hover{
-  background-color: lightgrey;
+  background-color: darkslategrey;
 }
 
 .div8{
@@ -292,7 +295,7 @@ button:hover{
 
 .div8 button{
   background-color: rgba(9, 179, 131, 0.40);
-  height: 60px;
+  height: 55px;
   width: 90px;
 }
 
