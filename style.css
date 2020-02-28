@@ -35,13 +35,14 @@
 }
 .first-div img {
   display: block;
-  padding-top: 20px;
+  padding-top: 10px;
+  margin-bottom: -10px;
 }
 
 .first-div p{
-  margin-top: -17px;
-  width: 700px;
-  padding: 50;
+  margin-top: -10px;
+margin-left: 70px;
+margin-right: 70px;
 }
 
 /**** SECOND DIV****/
