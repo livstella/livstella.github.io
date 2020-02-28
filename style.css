@@ -4,7 +4,7 @@
    height: 500px;
   background-image: url("img/header.png");
    background-size: cover;
-   width: 100vw;
+   width: 100%;
  }
 
 .top-ul {
@@ -25,7 +25,7 @@
 .first-div {
   background-color: lightgrey;
   height: 200px;
-  width: 100vw;
+  width: 100%;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -50,7 +50,7 @@ margin-right: 70px;
 .second-div{
   height: 500px;
   display: flex;
-  width: 100vw;
+  width: 100%;
 
 }
   .second-left {
@@ -95,11 +95,11 @@ margin-right: 70px;
 .third-div{
   height: 500px;
   display: flex;
-  width: 100vw;
+  width: 100%;
 }
 
 .third-left {
-  width: 40vw;
+  width: 40%;
   background-color: azure;
   text-align: center;
   display: flex;
@@ -128,7 +128,7 @@ margin-right: 70px;
 
 .third-right {
   background-image: url("img/div3-background.png");
-  width: 60vw;
+  width: 60%;
   flex-grow: 1;
 }
 
@@ -144,7 +144,7 @@ margin-right: 70px;
   height: 500px;
   display: flex;
   flex-direction: row;
-  width: 100vw;
+  width: 100%;
   text-align: center;
 }
 .fourth-left {
@@ -190,7 +190,7 @@ flex: 1;
 
 .fifth-div{
   height: 250px;
-  width: 100vw;
+  width: 100%;
   background-color: azure;
   text-align: center;
   display: flex;
@@ -213,7 +213,7 @@ flex: 1;
 /**** new sixt div ***/
 
 .div6 {
-  width: 100vw;
+  width: 100%;
   height: 500px;
   display: flex;
 }
@@ -286,7 +286,7 @@ flex: 1;
 
 .div7{
   background-color: black;
-  width: 100vw;
+  width: 100%;
   display: flex;
   flex: 1;
   height: 150px;
@@ -315,7 +315,7 @@ button:hover{
   background-color: azure;
   color: grey;
   height: 300px;
-  width: 100vw;
+  width: 100%;
   text-align: center;
   font-size: 25px;
   display: flex;
