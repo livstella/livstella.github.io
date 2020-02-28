@@ -41,6 +41,7 @@
 .first-div p{
   margin-top: -17px;
   width: 700px;
+  padding: 50;
 }
 
 /**** SECOND DIV****/
@@ -53,15 +54,15 @@
 }
   .second-left {
     width: 60vw;
+    display: flex;
     flex: 1;
     background-image: url("img/div2-background.png");
-
-      }
+    justify-content: center;
+    }
 
   .second-left img{
     display: block;
-    margin: auto;
-    margin-top: 80px;
+    align-self: center;
   }
 
   .second-right {
@@ -71,6 +72,10 @@
     display: flex;
     flex-direction: column;
       }
+  .second-right p {
+    padding: 60px;
+    margin-top: -50px;
+  }
 
 #icon1 {
   display: block;
@@ -95,17 +100,23 @@
 .third-left {
   width: 40vw;
   background-color: azure;
+  text-align: center;
   display: flex;
   flex-direction: column;
   text-align: center;
+  justify-content: center;
   align-items: center;
-
+}
+.third-left p{
+  margin-top: -90px;
+  padding: 80px;
 }
 
+
 #target-icon {
-  display: block;
+
   margin: auto;
-  padding-top: 10px;
+  margin-top: 60px;
 
   }
   #black-saddle {
@@ -143,20 +154,31 @@
 .fourth-middle {
   background-color: azure;
   width: 34vw;
+  text-align: center;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-content: center;
+}
+.fourth-middle p{
+  margin-top: -90px;
+  padding: 80px;
 }
 
 
 #icon3 {
-  display: block;
-  margin: auto;
+display: block;
+padding-top: 40px;
+width: 30px;
+align-self: center;
 
 }
-#div4mid{
-  align-items: flex-end;
+#div4mid {
+align-self: flex-end;
+width: 34vw;
+flex: 1;
 }
+
 
 .fourth-right {
   background-image: url("img/div4-background.png");
@@ -166,14 +188,26 @@
 /**** fifth DIV****/
 
 .fifth-div{
-  height: 300px;
+  height: 250px;
   width: 100vw;
   background-color: azure;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+.fifth-div p{
+  padding: 50px;
+  margin-top: -60px;
 }
 .fifth-div img{
   padding: 20px;
-}
+  display: block;
+  width: 30px;
+  align-self: center;
+  margin-bottom: -20px;
+  }
 
 /**** new sixt div ***/
 
@@ -277,7 +311,7 @@ button:hover{
 .div8{
   background-color: azure;
   color: grey;
-  height: 400px;
+  height: 300px;
   width: 100vw;
   text-align: center;
   font-size: 25px;
