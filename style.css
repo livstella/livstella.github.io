@@ -298,10 +298,12 @@ flex: 1;
   color: white;
   height: 50px;
   align-self: center;
-  border-radius: 12px;
+  border-radius: 2px;
   padding: 10px 24px;
   transition-duration: 0.4s;
-  box-shadow: 1px 1px 10px 1px grey;
+  border: 0.5px solid (0, 0, 0, 0.15);
+  width: 250px;
+
 
 }
 
