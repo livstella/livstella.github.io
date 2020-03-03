@@ -23,7 +23,7 @@ main {
 
   i {
     margin: 10px;
-    color: rgba(224, 15, 247, 0.80);
+    color: #2E8B57;
   }
 
 
@@ -63,7 +63,7 @@ main {
 
 .progress{
   /***background-color: rgba(60, 47, 61, 0.15);***/
-  background-color: rgba(224, 15, 247, 0.50);
+  background-color: #2E8B57;
   height: 25px;
   width: 100%;
   border-top-left-radius: 10px;
@@ -118,5 +118,5 @@ main {
   margin: 20px;
 }
 .dates{
-  color: rgba(224, 15, 247, 0.80);
+  color: #2E8B57;
 }
